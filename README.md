@@ -16,5 +16,10 @@ Speech to Phoneme: Simultaneously, the Wav2Vec2Phoneme model converts the speech
 Error and Filler Word Reporting: The system outputs a report highlighting any detected pronunciation errors and filler words, providing valuable feedback for speech improvement.
 
 ## Dependencies
-pip install transformers datasets evaluate jiwer accelerate librosa soundfile
+pip install transformers datasets evaluate jiwer accelerate librosa soundfile nltk phonemizer
+brew install espeak
 
+
+## Run
+Locally -> python src/app.py
+Run container -> ./run.sh
